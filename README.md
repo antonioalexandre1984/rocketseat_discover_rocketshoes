@@ -11,12 +11,7 @@
 ## 💻 O que tem no projeto?
 
 * Front-end bem clean, desenvolvido seguindo o proposto no [Figma](https://www.figma.com/file/iSQh5XZbkiiEDee3mHnhl4/DD-%2F-RocketShoes/duplicate).
-* Exeritamos conceitos de design responsivo,html e CSS.
-
-
-&nbsp;
-
-![mock2](https://github.com/antonioalexandre1984/GithubBlog/blob/main/public/imagesApp/blog3.jpg)
+* Exercitamos conceitos de design responsivo,html e CSS.
 
 &nbsp;
 
