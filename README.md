@@ -2,6 +2,10 @@
 
 ![mock1](https://github.com/antonioalexandre1984/rocketseat_discover_rocketshoes/blob/main/assets/aplicacao.jpg?raw=true)
 
+&nbsp;
+
+![mock1](https://github.com/antonioalexandre1984/rocketseat_discover_rocketshoes/blob/main/assets/aplicacao2.jpg?raw=true)
+
 ## 📚 Informações sobre o projeto
 
 * Esse projeto desenvolvido durante um desafio discover da Rocketseat! A ideia era desenvolver do 0 uma aplicação. Neste projeto desenvolvemos uma aplicação de ecommerce de sapatos esportivos.
