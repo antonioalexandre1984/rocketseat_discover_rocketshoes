@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  --button: #FF0000;
+  --button-hover: #b30000;
+  --main-background: #c4c4c4;
+  --background: #e5e5e5;
+  --text: #000;
+  --footer: #000;
+  --footer-hover: #303030;
+  --text-description: #9c9696;
+  --white: #fff;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Poppins',sans-serif;
+}
+
+body,html{  
+    width: 100%;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    font-size: 1.6rem;
+    overflow: auto;
+    background-color: var(--background);
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 39px;
+}
+
+.menu{
+    background-color: transparent; 
+    width: 100%;
+    max-width: 1440px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 52px;
+    height: 38.76px;
+    padding-left: 2.36px;
+    top: 0;
+    
+}
+
+.menu ul{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 90px;
+    padding: 9px;
+    
+}
+
+.menu ul li a{
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+     padding: 9px;
+}
+
+.menu-input{
+    width: 220px;
+    height: 45px;
+    display: flex;
+    border: none
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--white);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.menu-input input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    z-index: 9999;
+}
+.formx button{   
+    width: 24px;
+    height: 23px;
+    background-color: #000000;
+}
+
+.bag{
+    padding-right:60px;
+}
+
+/*===================== Main =====================*/
+
+#main {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: space-between;
+    //padding-bottom: 40px;
+}
+
+
+.product-info{
+    width: 357px;
+    height: 533px;
+    display: flex;
+    flex-direction: column;
+    margin-left:62px;
+}
+
+.product-info h1{
+    font-weight: 700;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    line-height: 70px;
+}
+
+.product-info p{
+    font-weight: 700;
+    font-size: 16px;
+    color: #9c9696;
+    line-height: 19px;
+    bottom: 0;
+}
+
+#price{
+    margin-top: 21px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #000000; 
+}
+
+.purchase{
+    margin-top: 30px;
+    width: 274px;
+    height: 90px;
+    background-color: var(--button);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 24px;
+    border: none;
+}
+
+ 
+.product-background{
+    position: absolute;
+    right: 540px;
+    width: 914px;
+    height: 1000px;
+    background-color: var(--main-background);
+    flex-direction: column;
+    z-index: -5;
+    top:0;
+    bottom:-100px;
+} 
+ 
+.product-imgs{
+    padding-top: 180px;
+    width: 910px;
+    height: 914px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+.featured-img{
+    width: 603.63px;
+    height: 510.82px;
+    left: 688.74px;
+    top: 174.68px;
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.thumbnail-imgs{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 35px;
+}
+
+.thumbnail-imgs #sneakers-1{
+    width: 272.51px;
+    height: 182.80px;
+    left:685.5px;
+    top:858.61px;
+}
+.thumbnail-imgs #sneakers-2{
+    width: 252.78px;
+    height: 187.88px;
+    left:858.61px;
+    top:685.5px;
+    border-bottom: 5px solid var(--button)
+}
+
+.thumbnail-imgs #sneakers-2{
+    width: 273px;
+    height: 182.88px;
+    left:148.8px;
+    top:690.58px;
+    
+}
+
+
+/*===================== Footer =====================*/
+
+footer {
+    width: 100%;
+    max-width:1440px;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;;  
+}
+
+footer ul {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--text);
+}
+
+footer ul li {
+    padding: 9px;
+}
+
+footer a{
+    width: 437px;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--footer);
+    background-image: url('./assets/icon-arrow.svg');
+    background-repeat: no-repeat;
+    background-position: 313px;
+    background-position-y: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: var(--white);
+}
+
+
+/*===================== responsividade =====================*/
+
+@media screen and (max-width: 720px){
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 200px;
+    }
+
+    .menu logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+   #main{
+        margin-top: 100px;
+        padding-right: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 100px;
+   }
+
+  #main h1{
+        display: flex;
+        font-size: 40px;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 30px;:
+  }
+
+    #main p{
+            display: flex;
+            font-size: 16px;
+            flex-direction: column;
+            align-items: center;
+            padding-right: 30px;
+            padding-left: 30px;
+    }
+
+    #main #price{
+        display: flex;
+        font-size: 40px;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 50px;
+    }
+
+    #main .purchase{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+
+    .product-imgs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;   
+    }
+
+    .featured-img{
+      width: 100%;
+      height: 500px;
+      max-width: 540px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -100px;
+      padding-left: 55px;
+    }
+
+    .thumbnail-imgs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .thumbnail-imgs #sneakers-1{
+         margin-bottom: 50px;
+    }
+     
+    .thumbnail-imgs #sneakers-2{
+         margin-bottom: 50px;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 70px;
+        padding-right: 50px;
+    }
+
+    footer ul{
+        font-size: 24px;
+        color: var(--button)
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .explorer{
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width: 630px){
+
+     .featured-img{
+      width: 50%;
+      height: 360px;
+      max-width: 360px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -100px;
+        margin: 0 auto;
+    }
+
+  
+}
+
+
+
+
+    
